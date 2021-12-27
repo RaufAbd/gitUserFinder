@@ -187,21 +187,25 @@
     width: 100%;
 }
 
+.repos-container {
+    display: flex;
+    flex-flow: row wrap;
+    transition: all ease 300ms;
+}
+
 .repos-box {
     position: relative;
     width: 350px;
     height: 150px;
-    float: left;
     display: flex;
     flex-direction: column;
     padding: 10px 15px;
-    margin-right: 60px;
+    margin-right: 50px;
     margin-bottom: 60px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px 0px #e3e3e3;
     box-shadow: rgb(227 227 227) 0px 0px 26px -5px;
     transition: all ease 250ms;
-    
 }
 
 .repos-box:hover {
